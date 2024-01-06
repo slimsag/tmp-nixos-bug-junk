@@ -1,0 +1,15 @@
+.{
+    .name = "junk",
+    .version = "0.1.0",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .xcode_frameworks = .{
+            .url = "https://pkg.machengine.org/xcode-frameworks/8a920385383cc4c0a2a4f55b084d402a9400a5a8.tar.gz",
+            .hash = "122051b3c616c62d55a82207c1cb76e2264b26e8378f56b1e5376d7684bd13616589",
+        },
+    },
+}
